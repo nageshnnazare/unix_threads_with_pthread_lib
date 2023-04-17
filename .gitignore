@@ -1,3 +1,9 @@
+*
 .vscode/
 output/
 .exe
+
+!*.c
+!.gitignore
+!Makefile
+!.github/*

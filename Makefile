@@ -10,5 +10,7 @@ all: $(PROGS)
 
 %: %.c
 	$(CC) -o $@ $< $(CFLAGS)
+test: $(PROGS)
+	./$<
 clean: 
 	rm -f $(PROGS)
